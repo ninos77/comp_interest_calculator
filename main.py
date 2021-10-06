@@ -56,7 +56,7 @@ def get_final_amount_list(capt,intres,year,month,period):
   else:    
     return f_amount_year_list
 
-#To get all interest for each year
+#To get all interest for each year.
 def get_intrest_list():
   for a in get_final_amount_list(capital,intrest,year,monthly,period):
     i_amount = a - capital
