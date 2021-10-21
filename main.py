@@ -9,7 +9,7 @@ print("Welcome To Interest Calculator ")
 print("   ++-------------------++")
 print("  ++-----------------------++\n")
 
-#Ask user to input year,interest,capital amount
+#Ask user to input year,interest,capital amount.
 
 ask_typ_save = int(input('How do you want to save,'
                         'please choose an option below.\n1.Monthly\n2'
